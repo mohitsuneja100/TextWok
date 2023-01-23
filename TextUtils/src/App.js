@@ -47,9 +47,9 @@ function App() {
       <Alert alert={alert}/>
       
       {/* <Switch>
-          <Route path="/about">
-           <About mode={mode}/>
-          </Route>
+          <Route path="/about"> */}
+           
+          {/* </Route>
           <Route path="/"> */}
             <TextForm />
           {/* </Route>
