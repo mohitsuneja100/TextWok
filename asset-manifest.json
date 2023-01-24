@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TextWok/static/css/main.4dd084d7.css",
-    "main.js": "/TextWok/static/js/main.28ac28f2.js",
+    "main.js": "/TextWok/static/js/main.0ed93656.js",
     "static/js/787.719ec76d.chunk.js": "/TextWok/static/js/787.719ec76d.chunk.js",
     "index.html": "/TextWok/index.html",
     "main.4dd084d7.css.map": "/TextWok/static/css/main.4dd084d7.css.map",
-    "main.28ac28f2.js.map": "/TextWok/static/js/main.28ac28f2.js.map",
+    "main.0ed93656.js.map": "/TextWok/static/js/main.0ed93656.js.map",
     "787.719ec76d.chunk.js.map": "/TextWok/static/js/787.719ec76d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd084d7.css",
-    "static/js/main.28ac28f2.js"
+    "static/js/main.0ed93656.js"
   ]
 }
