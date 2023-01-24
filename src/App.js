@@ -3,12 +3,12 @@ import React,{useState} from 'react';
 import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
 import Alert from './Components/Alert';
-// import About from './Components/About';
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Switch
-// } from "react-router-dom";
+import About from './Components/About';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -42,19 +42,19 @@ function App() {
   }
   return (
     <>
-    {/* <Router> */}
+    <Router>
       <Navbar mode={mode} txtbtn={textBtn} darkMode={darkMode}/>
       <Alert alert={alert}/>
       
-      {/* <Switch>
+      <Switch>
           <Route path="/about">
            <About mode={mode}/>
           </Route>
-          <Route path="/"> */}
+          <Route path="/">
             <TextForm showalert={showAlert}/>
-          {/* </Route>
+          </Route>
       </Switch>
-    </Router>  */}
+    </Router> 
     </>
   );
 }

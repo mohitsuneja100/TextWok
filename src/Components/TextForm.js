@@ -22,10 +22,7 @@ function TextForm(props) {
         props.showalert("Text Clearled","success")
     }
     const copytxt=()=>{
-        var copText=document.getElementById("mybox");
-        copText.select();
-        navigator.clipboard.writeText(copText.value)
-        document.getSelection().removeAllRanges();
+        navigator.clipboard.writeText(text)
         props.showalert("Text Copied to Clipboard","success")
 
     }
@@ -40,7 +37,7 @@ function TextForm(props) {
         <h5 className='mt-4'>Count:</h5>
         <p>{text.length} Letters and {text.split(" ").filter((element)=>{return element.length!==0}).length} Words</p>
         <h5 className='mt-4'>Time:</h5>
-        <p>{0.006*text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes to Read Words in the Text</p>
+        <p>{0.006*text.split(/\s+/).filter((element)=>{return element.length!==0}).length} Minutes to Read Words in the Text</p>
         <h5 className='mt-4'>Preview</h5>
         <p>{text.length===0?"Enter the Text to preview":text}</p>
     </div>
