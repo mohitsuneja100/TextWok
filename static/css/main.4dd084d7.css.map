@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.4dd084d7.css","mappings":"AAAA,gBACI,4BAAqB,CAArB,oBACJ","sources":["App.css"],"sourcesContent":[".nav-link:hover{\r\n    transform: scale(1.5);\r\n}"],"names":[],"sourceRoot":""}
